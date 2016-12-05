@@ -1,0 +1,24 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "a tic tac toe game",
+  "main": "index.html",
+  "dependencies": {
+    "jasmine": "^2.5.2",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eseakin/TicTacToe.git"
+  },
+  "author": "Eric Eakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eseakin/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/eseakin/TicTacToe#readme"
+}
