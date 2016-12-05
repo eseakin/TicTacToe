@@ -1,4 +1,18 @@
+//victory conditions
+var checkRows = function(board) {
 
+};
+var checkColumns = function(board) {
+
+};
+var checkDiagForward = function(board) {
+
+};
+var checkDiagBack = function(board) {
+
+};
+
+//initialize
 $(document).ready(function() {
 	//player moves
 	var move = 'O';
@@ -21,12 +35,16 @@ $(document).ready(function() {
 			//add click handler
 			$('#box' + i + j).click(function() {
 				if ($(this).text() === 'hi') {
-					$(this).text(XO)
+					$(this).text(XO);
+				}
+
+				//victory
+				if (checkRows() || checkColumns() || checkDiagForward() || checkDiagBack()) {
+					$('#app').append('<h1>Game Over!</h1>');
 				}
 			});
 		}
 	}
-
 
 });
 
